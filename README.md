@@ -1,5 +1,5 @@
 # Xamarin Samples
-Sample Xamarin Form Concepts
+Sample Xamarin Forms Concepts
 
 This project is being created as a support for any Xamarin Forms application.
 
