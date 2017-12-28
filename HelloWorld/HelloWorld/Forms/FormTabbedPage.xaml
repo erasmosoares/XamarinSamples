@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns:local="clr-namespace:HelloWorld.Forms"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.Forms.FormTabbedPage">
+
+    <local:FormTab1 Title="Forms 1" />
+    <local:FormTab2 Title="Forms 2" />
+
+</TabbedPage>

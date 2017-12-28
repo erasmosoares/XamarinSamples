@@ -38,6 +38,18 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormGeneralPage.xaml.cs">
+      <DependentUpon>FormGeneralPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTab1.xaml.cs">
+      <DependentUpon>FormTab1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTab2.xaml.cs">
+      <DependentUpon>FormTab2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTabbedPage.xaml.cs">
+      <DependentUpon>FormTabbedPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\AbsolutePage.xaml.cs">
       <DependentUpon>AbsolutePage.xaml</DependentUpon>
     </Compile>
@@ -59,6 +71,12 @@
     <Compile Include="MarkupExtensions\EmbeddedImage.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\ContactGroup.cs" />
+    <Compile Include="Navigation\Carousel\CarouselPageView.xaml.cs">
+      <DependentUpon>CarouselPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation\Dialogs\DialogsViews.xaml.cs">
+      <DependentUpon>DialogsViews.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Navigation\Hierarchical\IntroductionPage.xaml.cs">
       <DependentUpon>IntroductionPage.xaml</DependentUpon>
     </Compile>
@@ -82,6 +100,9 @@
     </Compile>
     <Compile Include="Navigation\TabbedPageView\Tabs.xaml.cs">
       <DependentUpon>Tabs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation\ToolBarView\BarView.xaml.cs">
+      <DependentUpon>BarView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -191,6 +212,48 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Navigation\TabbedPageView\ContentPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Navigation\Carousel\CarouselPageView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Navigation\Dialogs\DialogsViews.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Navigation\ToolBarView\BarView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FormTabbedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FormGeneralPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FormTab1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FormTab2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

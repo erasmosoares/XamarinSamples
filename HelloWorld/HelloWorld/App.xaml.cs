@@ -1,8 +1,12 @@
-﻿using HelloWorld.Layouts;
+﻿using HelloWorld.Forms;
+using HelloWorld.Layouts;
+using HelloWorld.Navigation.Carousel;
+using HelloWorld.Navigation.Dialogs;
 using HelloWorld.Navigation.Hierarchical;
 using HelloWorld.Navigation.MasterDetail;
 using HelloWorld.Navigation.MasterDetailPageView;
 using HelloWorld.Navigation.TabbedPageView;
+using HelloWorld.Navigation.ToolBarView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +22,7 @@ namespace HelloWorld
         {
             InitializeComponent();
 
-            MainPage = new Tabs();
+            MainPage = new FormTabbedPage();
 
             //MainPage = new NavigationPage(new ContactsPage())
             //{
