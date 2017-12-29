@@ -48,6 +48,11 @@ namespace HelloWorld.Forms
             var contactMethod = _contactMethods.Single(cm => cm.Name == name);
             DisplayAlert("Selection", name, "Ok");
         }
+
+        private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
+        {
+            //e.OldDate
+        }
     }
 
     public class ContactMethod

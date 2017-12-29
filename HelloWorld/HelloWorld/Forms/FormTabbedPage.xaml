@@ -6,5 +6,6 @@
 
     <local:FormTab1 Title="Forms 1" />
     <local:FormTab2 Title="Forms 2" />
+    <local:FormTab3 Title="Forms 3" />
 
 </TabbedPage>

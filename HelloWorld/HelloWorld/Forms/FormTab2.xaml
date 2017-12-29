@@ -1,16 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage 
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.Forms.FormTab2"
              Padding="40">
-            <StackLayout>
-                <Picker x:Name="ContactMethods" Title="Contact Method" SelectedIndexChanged="Picker_SelectedIndexChanged">
-                    <Picker.Items>
-                        <x:String>SMS</x:String>
-                        <x:String>Email</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Picker x:Name="picker" Title="Contact Method" SelectedIndexChanged="picker_SelectedIndexChanged_1"></Picker>
+    <StackLayout>
+        <Picker x:Name="ContactMethods" Title="Contact Method" SelectedIndexChanged="Picker_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>SMS</x:String>
+                <x:String>Email</x:String>
+            </Picker.Items>
+        </Picker>
+        <Picker x:Name="picker" Title="Contact Method" SelectedIndexChanged="picker_SelectedIndexChanged_1"></Picker>
+        <DatePicker Date="{x:Static sys:DateTime.Today}" Format="d MM yyyy"  DateSelected="DatePicker_DateSelected"/>
+        <TimePicker Time="13:00" />
     </StackLayout>
 </ContentPage>

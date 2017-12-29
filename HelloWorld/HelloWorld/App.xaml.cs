@@ -22,7 +22,7 @@ namespace HelloWorld
         {
             InitializeComponent();
 
-            MainPage = new FormTabbedPage();
+            MainPage = new NavigationPage(new FormTabbedPage());
 
             //MainPage = new NavigationPage(new ContactsPage())
             //{

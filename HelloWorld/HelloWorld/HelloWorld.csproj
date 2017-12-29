@@ -38,14 +38,20 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormGeneralPage.xaml.cs">
-      <DependentUpon>FormGeneralPage.xaml</DependentUpon>
+    <Compile Include="Extensions\DateCell.xaml.cs">
+      <DependentUpon>DateCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ContactMethodsPage.xaml.cs">
+      <DependentUpon>ContactMethodsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormTab1.xaml.cs">
       <DependentUpon>FormTab1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormTab2.xaml.cs">
       <DependentUpon>FormTab2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTab3.xaml.cs">
+      <DependentUpon>FormTab3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormTabbedPage.xaml.cs">
       <DependentUpon>FormTabbedPage.xaml</DependentUpon>
@@ -241,12 +247,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\FormGeneralPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Forms\FormTab1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -254,6 +254,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Forms\FormTab2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FormTab3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Extensions\DateCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ContactMethodsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
