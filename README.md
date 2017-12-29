@@ -15,7 +15,16 @@ HelloWorld
 │   │   ListViewPage.xaml
 │   │   RelativePage.xaml
 │   │   StackPage.xaml
-│   
+|
+└───Forms
+│   │   FormTabbedPage.xaml
+│   │   FormaTab1.xaml
+│   │   FormTab2.xaml
+|
+└───Extensions
+|   |
+|   | DataCell.cs 
+|
 └───MarkupExtensions
 |   |
 |   | EmbeddedImages.cs 
@@ -65,3 +74,15 @@ Navigation
 - MasterDetail
 - MasterDetailPage
 - TabbedPage
+
+Forms
+- Switch
+- Slider
+- Stepper
+- Entry and Editor
+- Picker
+- Date Picker
+- Table View
+- Custom Cells
+- Bindable Properties
+- Picker Navigation
