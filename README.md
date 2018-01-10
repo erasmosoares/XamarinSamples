@@ -8,6 +8,11 @@ HelloWorld
 │   App.xaml
 |   packages.config
 |
+└───DataAccess
+│   │   PropertiesPage.xaml
+│   │   RESTApi.xaml
+│   │   SQLite.xaml
+|
 └───Layouts
 │   │   AbsoluteLayout.xaml
 │   │   GridPage.xaml
@@ -86,3 +91,9 @@ Forms
 - Custom Cells
 - Bindable Properties
 - Picker Navigation
+
+Data Access
+- Application Properties
+- File System
+- SQLite
+- RESTfull Services
